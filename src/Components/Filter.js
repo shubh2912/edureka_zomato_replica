@@ -75,7 +75,7 @@ class Filter extends React.Component {
     }
 
     handleCostChange = (lcost, hcost) => {
-        const { location, mealtype, sort } = this.state;
+        const { location, mealtype, sort, cuisine } = this.state;
         const inputObj = {
             sort: sort,
             mealtype_id: mealtype,
@@ -89,7 +89,7 @@ class Filter extends React.Component {
 
     handleLocationChange = (event) => {
         const location = event.target.value;
-        const { mealtype, sort, hcost, lcost } = this.state;
+        const { mealtype, sort, hcost, lcost, cuisine } = this.state;
 
         const inputObj = {
             sort: sort,
