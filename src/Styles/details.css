@@ -1,0 +1,236 @@
+.tabs {
+    position: relative;
+    min-height: 200px;
+    clear: both;
+    margin: 50px 0 25px;
+    background: white;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    top: -46px;
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border-top: 1px solid gray;
+    opacity: 0;
+}
+
+[type=radio]:checked~label {
+    background: white;
+    border-bottom: 1px solid white;
+    border-bottom: solid 4px red;
+}
+
+[type=radio]:checked~label~.content {
+    opacity: 1;
+}
+
+.button {
+    position: absolute;
+    left: 80%;
+    top: 47%;
+    width: 200px;
+    height: 35px;
+    opacity: 0.6;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.heading {
+    width: 298px;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.about {
+    width: 181px;
+    height: 31px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.head {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.value {
+    height: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.btn-order {
+    float: right;
+    width: 170px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #ce0505;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.restaurant-name {
+    color: white;
+}
+
+.item-name {
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.item-price {
+    font-family: RupeeForadian;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.item-descp {
+    font-family: RupeeForadian;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.item-total {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.pay {
+    position: absolute;
+    left: 70%;
+    top: 12%;
+}
+
+.add-button {
+    position: absolute;
+    left: 28%;
+    top: 82%;
+}
+
+.add-number {
+    position: absolute;
+    top: 80%;
+    left: 23%;
+}
+
+.resName {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.subhead {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+        position: absolute;
+        left: 55%;
+        top: 40%;
+        width: 200px;
+        height: 35px;
+        opacity: 0.6;
+        border-radius: 3px;
+        background-color: #ffffff;
+    }
+}
